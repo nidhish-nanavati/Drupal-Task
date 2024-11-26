@@ -1,0 +1,7 @@
+custom_config_form.settings:
+  path: '/admin/config/time-show-form'
+  defaults:
+    _form: '\Drupal\time_show\Form\TimeShowForm'
+    _title: 'Custom Configuration Form'
+  requirements:
+    _permission: 'administer site configuration'

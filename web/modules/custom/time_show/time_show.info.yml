@@ -1,0 +1,7 @@
+name: 'Time Dispaly'
+type: module
+description: 'Provides an admin configuration form with Country, City, and Timezone inputs.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:system
