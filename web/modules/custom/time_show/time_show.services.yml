@@ -1,0 +1,4 @@
+services:
+  time_show.current_time_service:
+    class: 'Drupal\time_show\Service\CurrentTimeService'
+    arguments: ['@date.formatter']
